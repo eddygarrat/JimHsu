@@ -1,13 +1,13 @@
 baseURL: ""
 languageCode: en-us
-title: Chaitanya Chawak
+title: Jimshu
 paginate: 5
 theme: PaperMod
 
 
 params:
   #homeInfoParams:
-  #  Title: "Hello there !"
+  #  Title: "Hola !"
   #  Content: This is my new website
   
   ShowBreadCrumbs: false
@@ -22,15 +22,13 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Chaitanya Chawak
-    subtitle: "Hello there. Welcome to my [digital garden](https://joelhooks.com/digital-garden) !"
-    extrainfo: "I am Chaitanya Chawak, a student in Computational Astrophysics. Specifically, I use Machine Learning techniques to extract Cosmological and Astrophysical information from the properties of a handful of galaxies. I am currently learning about cool methods like Self Organising Maps and their application.
-In my free time, I like to listen to music, solve puzzles, and [sleep](/calvin-sleeping-through-bedtime.jpg)."
-    extraextrainfo: "I'm usually up for fun discussions anytime, so feel free to contact me via any of my socials !"
+    title: 
+    subtitle: 
+    extrainfo:  !"
     imageUrl: me.jpeg
     imageWidth: 200
     imageHeight: 200
-    imageTitle: its a me !
+    imageTitle: Hola mfs !
 
   socialIcons:
     - name: github
