@@ -1,0 +1,55 @@
+# Site settings
+title: My Awesome Project
+description: > # this means to ignore newlines until "baseurl:"
+  A simple description of my project to show on the main page.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://your-username.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Author settings
+author:
+  name: Your Name
+  email: your-email@example.com
+
+# Custom navigation links
+nav_links:
+  - name: Home
+    url: /
+  - name: About
+    url: /about/
+  - name: Contact
+    url: /contact/
+
+# Social links
+twitter_username: your-twitter-handle
+github_username: your-github-username
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Include in processing
+include:
+  - _pages
+
+# Default settings
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+
+# Custom variables
+custom_variable: "This is a custom variable"
