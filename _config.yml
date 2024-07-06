@@ -1,55 +1,73 @@
-# Site settings
-title: My Awesome Project
-description: > # this means to ignore newlines until "baseurl:"
-  A simple description of my project to show on the main page.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://your-username.github.io" # the base hostname & protocol for your site
+baseURL: ""
+languageCode: en-us
+title: Chaitanya Chawak
+paginate: 5
+theme: PaperMod
 
-# Build settings
-markdown: kramdown
-theme: minima
 
-# Author settings
-author:
-  name: Your Name
-  email: your-email@example.com
+params:
+  #homeInfoParams:
+  #  Title: "Hello there !"
+  #  Content: This is my new website
+  
+  ShowBreadCrumbs: false
 
-# Custom navigation links
-nav_links:
-  - name: Home
-    url: /
-  - name: About
-    url: /about/
-  - name: Contact
-    url: /contact/
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: /teacup_nobg.png
+    #favicon16x16: /teacup_nobg.png
+    #favicon32x32: /teacup_nobg.png
 
-# Social links
-twitter_username: your-twitter-handle
-github_username: your-github-username
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Chaitanya Chawak
+    subtitle: "Hello there. Welcome to my [digital garden](https://joelhooks.com/digital-garden) !"
+    extrainfo: "I am Chaitanya Chawak, a student in Computational Astrophysics. Specifically, I use Machine Learning techniques to extract Cosmological and Astrophysical information from the properties of a handful of galaxies. I am currently learning about cool methods like Self Organising Maps and their application.
+In my free time, I like to listen to music, solve puzzles, and [sleep](/calvin-sleeping-through-bedtime.jpg)."
+    extraextrainfo: "I'm usually up for fun discussions anytime, so feel free to contact me via any of my socials !"
+    imageUrl: me.jpeg
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: its a me !
 
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+  socialIcons:
+    - name: github
+      url: ""
+    - name: Twitter
+      url: "\"
+    - name: Discord
+      url: ""
+    - name: email
+      url: ""
 
-# Exclude from processing
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
 
-# Include in processing
-include:
-  - _pages
-
-# Default settings
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Your Name"
-
-# Custom variables
-custom_variable: "This is a custom variable"
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: ""
+      weight: 1
+    -
+      weight: 5
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 10
+    #- identifier: archives
+    #  name: Archives
+    #  url: /archives/
+    #  weight: 15
+    - identifier: mylogs
+      name: My Logs
+      url: /mylogs/
+      weight: 15
+    - identifier: misc
+      name: Misc
+      url: /misc/
+      weight: 20
+    #- identifier: tags
+    #  name: Tags
+    #  url: /tags/
+    #  weight: 25
