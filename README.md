@@ -1,3 +1,0 @@
-# JimHsu
-
-Hey Fucker
